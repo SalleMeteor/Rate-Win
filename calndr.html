@@ -1,0 +1,17 @@
+<head>
+  <title>CaLNDR App: Organize your time, organize yourself</title>
+</head>
+
+<body> 
+  {{ >menu}}
+  {{#if currentUser}}
+  <div class="container-fluid">
+    <div class="row-fluid">
+      {{ >calendar}}
+      <!--{{ renderPage}}-->
+    </div>
+  </div>
+  {{else}}
+    {{ >home}}
+  {{/if}}
+</body>

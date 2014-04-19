@@ -1,0 +1,55 @@
+/* Beginning of code common to all pages */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight:normal;
+}
+/* End of code common for all pags */
+
+/* Beginning of code for menu.html */
+.navbar .nav li a:link, .navbar .nav li a:visited, 
+.navbar .nav li a:hover, .navbar .nav li a:active,
+a#login-sign-in-link.login-link-text, #login-buttons a, 
+.accounts-dialog a, .fc-state-disabled, .fc-state-default {
+  color:#309CC9;
+  text-decoration:none;
+}
+
+.navbar .nav li a {
+  margin-top:2px;
+}
+.navbar .nav li a:hover, a#login-sign-in-link.login-link-text:hover, 
+a.login-close-text:hover, #login-buttons a:hover, .accounts-dialog a:hover {
+  text-decoration:underline;
+}
+div#login-buttons.login-buttons-dropdown-align- {
+  margin-top:15px;
+}
+
+div.accounts-dialog a.login-close-text {
+  font-size:14px;
+}
+
+div#login-buttons-password.login-button.login-button-form-submit,
+div#login-buttons-open-change-password.login-button, 
+div#login-buttons-logout.login-button,
+div#login-buttons-do-change-password.login-button.login-button-form-submit,
+#login-buttons .login-button:hover,
+.accounts-dialog .login-button:hover,
+#login-buttons .login-button:active,
+.accounts-dialog .login-button:active {
+  background-color:#309CC9;
+  border:1px #309CC9 solid;
+}
+
+
+/* End of code common for menu.html */
+
+/* Beginning of code for home.html */
+div.hero-unit p {
+  margin-left:7px;
+  margin-top:5px;
+}
+/* End of code for home.html */
